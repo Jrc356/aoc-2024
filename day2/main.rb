@@ -4,8 +4,6 @@
 
 require '../lib/files'
 
-INPUT_FILE_PATH = './input.txt'
-
 def all_increasing(line)
   s = line.split(' ', -1)
   (s.length - 1).times do |i|

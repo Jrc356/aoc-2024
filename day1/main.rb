@@ -4,8 +4,6 @@
 
 require '../lib/files'
 
-INPUT_FILE_PATH = './input.txt'
-
 def create_lists(data)
   list1 = []
   list2 = []
