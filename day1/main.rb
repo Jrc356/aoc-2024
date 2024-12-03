@@ -2,12 +2,9 @@
 
 # frozen_string_literal: true
 
-INPUT_FILE_PATH = './input.txt'
+require '../lib/files'
 
-def read_file(path)
-  f = File.open(path)
-  f.readlines.map(&:chomp)
-end
+INPUT_FILE_PATH = './input.txt'
 
 def create_lists(data)
   list1 = []
